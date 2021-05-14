@@ -1,8 +1,10 @@
 Kitty Application Icon
 ======================
 
-<img src="kitty-dark.png" width="180">
-<img src="kitty-light.png" width="180">
+<p float="left">
+	<img src="kitty-dark.png" width="180">
+	<img src="kitty-light.png" width="180">
+</p>
 
 An alternative MacOS application icon for the wonderful [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 
