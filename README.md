@@ -1,7 +1,10 @@
 Kitty Application Icon
 ======================
 
-<img src="kitty.png" width="180">
+<p float="left">
+	<img src="kitty-dark.png" width="180">
+	<img src="kitty-light.png" width="180">
+</p>
 
 An alternative MacOS application icon for the wonderful [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 
@@ -18,5 +21,5 @@ $ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 ### Building
 
 ```bash
-$ npx png2icons kitty.png kitty -icns
+$ npx png2icons kitty-light.png kitty-light -icns && npx png2icons kitty-dark.png kitty-dark -icns
 ```
