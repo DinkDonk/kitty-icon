@@ -23,3 +23,7 @@ $ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 ```bash
 $ npx png2icons kitty-light.png kitty-light -icns && npx png2icons kitty-dark.png kitty-dark -icns
 ```
+
+### Other alternatives
+
+* [Icon by k0nserv](https://github.com/k0nserv/kitty-icon)
