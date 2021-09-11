@@ -20,8 +20,10 @@ $ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 
 ### Building
 
+Requires [node](https://nodejs.org/en/) and [npx](https://www.npmjs.com/package/npx).
+
 ```bash
-$ npx png2icons kitty-light.png kitty-light -icns && npx png2icons kitty-dark.png kitty-dark -icns
+$ make
 ```
 
 ### Other alternatives
