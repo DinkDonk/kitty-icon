@@ -10,6 +10,8 @@ An alternative MacOS application icon for the wonderful [Kitty](https://sw.kovid
 
 ### Installation
 
+#### OS X
+
 1. Find `kitty.app` in the `Applications` folder, select it and press `⌘ + i`.
 2. Drag `kitty-dark.icns` or `kitty-light.icns` onto the top right application icon in the `kitty info` pane.
 3. Delete the icon cache and restart `Dock`:
@@ -17,6 +19,27 @@ An alternative MacOS application icon for the wonderful [Kitty](https://sw.kovid
 ```bash
 $ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 ```
+
+#### Linux
+
+1. clone this repo
+2. Makefile should work with the most common Desktops
+
+```bash
+make install-dark-icon
+```
+or
+```bash
+make install-light-icon
+```
+
+use
+
+```bash
+make uninstall-icon
+```
+to remove the custom icon
+
 
 ### Building
 
