@@ -15,7 +15,7 @@ An alternative MacOS application icon for the wonderful [Kitty](https://sw.kovid
 3. Delete the icon cache and restart `Dock`:
 
 ```bash
-$ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
+rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 ```
 
 ### Building
@@ -23,7 +23,7 @@ $ rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 Requires [node](https://nodejs.org/en/) and [npx](https://www.npmjs.com/package/npx).
 
 ```bash
-$ make
+make
 ```
 
 ### Other alternatives
